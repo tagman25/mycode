@@ -1,6 +1,5 @@
 # mycode
 Python training class respository - This is Jason Taggart's training.
-
 # mycode (Project Title)
 
 One Paragraph of your project description goes here. Describe what you're trying to do.
@@ -24,4 +23,3 @@ What things are needed to install the software and how to install them. For now,
 ## Authors
 
 * **Jason Taggart** - *Initial work* - [YourWebsite](https://taggartboys.com/)
-
