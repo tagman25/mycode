@@ -1,0 +1,14 @@
+[
+  {
+    "category": "General Knowledge",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "What machine element is located in the center of fidget spinners?",
+    "correct_answer": "Bearings",
+    "incorrect_answers": [
+      "Axles",
+      "Gears",
+      "Belts"
+    ]
+  }
+]
