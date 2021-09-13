@@ -1,5 +1,5 @@
 # mycode
-Python training class respository
+Python training class respository - This is Jason Taggart's training.
 
 # mycode (Project Title)
 
