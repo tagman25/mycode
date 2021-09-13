@@ -1,5 +1,5 @@
 # mycode
-Python training class respository - This is Jason Taggart's training.
+Python training class respository - This is Jason Taggart's training. Add
 
 # mycode (Project Title)
 
@@ -24,4 +24,3 @@ What things are needed to install the software and how to install them. For now,
 ## Authors
 
 * **Jason Taggart** - *Initial work* - [YourWebsite](https://taggartboys.com/)
-
