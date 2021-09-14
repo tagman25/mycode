@@ -12,9 +12,9 @@ else:
     print('You didn\'t add an IP address')
 
 try:
-    ipchk = ipaddress.ip_address(sys.argv[1])
+    ip = ipaddress.ip_address(ipchk)
     print('%s is a correct IP%s address.' % (ip, ip.version))
 except ValueError:
-    print('address/netmask is invalid: %s' % sys.argv[1])
+    print('address/netmask is invalid: %s' % ipchk)
 except:
     print('Usage : %s  ip' % sys.argv[0])
