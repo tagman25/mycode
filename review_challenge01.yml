@@ -1,0 +1,23 @@
+---              
+- name: Knowledge Challenge Quiz  
+  hosts: renamed, !taz
+  gather_facts: False
+  connection: ssh
+  become: true
+  vars: 
+    USERNAME: 'jason'
+    
+  tasks:
+
+  - name: Add group called 'funkytown'
+    group:
+      name: funkytown
+      state: present
+      #become: true
+
+  - name: Add the user 'jason' with a specific uid and a primary group of 'funkytown'
+    user:
+      name: '{{ USERNAME }}'
+      comment: Jason Taggart
+      group: funkytown
+      #become: true
